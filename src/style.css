@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.winnig-num {
+    font-size: 45px;
+    background-color: #4C4C4C;
+    color: white;
+    width: 70px;
+    height: 65px;
+}
+
+.tic-tac-box {
+    border: 15px solid black;
+    background: black;
+    width: 320px;
+    height: 320px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 15px;
+}
+
+.box-btn {
+    background: white;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    outline: none;
+    color: rgb(38, 73, 145);
+    font-family: sans-serif;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.red-color {
+    color: red !important;
+}
+
+.turn {
+    font-size: 21px;
+}
+
+.reset-btn {
+    background-color: #CCCCCC;
+    font-size: 20px;
+}
